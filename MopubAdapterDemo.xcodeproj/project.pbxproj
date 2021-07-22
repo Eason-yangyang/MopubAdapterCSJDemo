@@ -7,18 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8541BAA351947D6607AEE6FF /* Pods_MopubAdapterDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936073DD97CCC73AC1F409D9 /* Pods_MopubAdapterDemo.framework */; };
+		92B70FFA58303C3AE6A8F761 /* Pods_MopubAdapterDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A85DCC42438288D91F56BB4 /* Pods_MopubAdapterDemo.framework */; };
 		9BAFE2D726A9682000D67011 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE2D626A9682000D67011 /* AppDelegate.m */; };
-		9BAFE2DA26A9682000D67011 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE2D926A9682000D67011 /* SceneDelegate.m */; };
 		9BAFE2DD26A9682000D67011 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE2DC26A9682000D67011 /* ViewController.m */; };
 		9BAFE2E026A9682000D67011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BAFE2DE26A9682000D67011 /* Main.storyboard */; };
 		9BAFE2E226A9682300D67011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BAFE2E126A9682300D67011 /* Assets.xcassets */; };
 		9BAFE2E526A9682300D67011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BAFE2E326A9682300D67011 /* LaunchScreen.storyboard */; };
 		9BAFE2E826A9682300D67011 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE2E726A9682300D67011 /* main.m */; };
-		9BAFE2F326A9699A00D67011 /* PangleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE2F126A9699A00D67011 /* PangleViewController.m */; };
-		9BAFE2F426A9699A00D67011 /* PangleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BAFE2F226A9699A00D67011 /* PangleViewController.xib */; };
-		9BAFE2F926A969F800D67011 /* CSJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE2F726A969F800D67011 /* CSJViewController.m */; };
-		9BAFE2FA26A969F800D67011 /* CSJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BAFE2F826A969F800D67011 /* CSJViewController.xib */; };
 		9BAFE30A26A970B900D67011 /* CSJBannerCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE2FC26A970B800D67011 /* CSJBannerCustomEvent.m */; };
 		9BAFE30B26A970B900D67011 /* CSJNativeAdRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE30226A970B800D67011 /* CSJNativeAdRenderer.m */; };
 		9BAFE30C26A970B900D67011 /* CSJNativeCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE30426A970B800D67011 /* CSJNativeCustomEvent.m */; };
@@ -26,17 +21,23 @@
 		9BAFE30E26A970B900D67011 /* CSJNativeAdAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE30626A970B800D67011 /* CSJNativeAdAdapter.m */; };
 		9BAFE30F26A970B900D67011 /* CSJAdapterConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE30726A970B800D67011 /* CSJAdapterConfiguration.m */; };
 		9BAFE31026A970B900D67011 /* CSJRewardedVideoCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE30826A970B800D67011 /* CSJRewardedVideoCustomEvent.m */; };
+		9BAFE32B26A9788E00D67011 /* CSJBannerViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE32926A9788E00D67011 /* CSJBannerViewControllerViewController.m */; };
+		9BAFE32C26A9788E00D67011 /* CSJBannerViewControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BAFE32A26A9788E00D67011 /* CSJBannerViewControllerViewController.xib */; };
+		9BAFE33026A99C5100D67011 /* CSJInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE32E26A99C5100D67011 /* CSJInterstitialViewController.m */; };
+		9BAFE33126A99C5100D67011 /* CSJInterstitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BAFE32F26A99C5100D67011 /* CSJInterstitialViewController.xib */; };
+		9BAFE33526A9A77500D67011 /* CSJRewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE33326A9A77500D67011 /* CSJRewardViewController.m */; };
+		9BAFE33626A9A77500D67011 /* CSJRewardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BAFE33426A9A77500D67011 /* CSJRewardViewController.xib */; };
+		9BAFE33A26A9A82C00D67011 /* CSJNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE33826A9A82C00D67011 /* CSJNativeViewController.m */; };
+		9BAFE33B26A9A82C00D67011 /* CSJNativeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BAFE33926A9A82C00D67011 /* CSJNativeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3601CAEE30C900D4EA3A1CE2 /* Pods-MopubAdapterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MopubAdapterDemo.debug.xcconfig"; path = "Target Support Files/Pods-MopubAdapterDemo/Pods-MopubAdapterDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6094F484000C2B7EED2E69A6 /* Pods-MopubAdapterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MopubAdapterDemo.release.xcconfig"; path = "Target Support Files/Pods-MopubAdapterDemo/Pods-MopubAdapterDemo.release.xcconfig"; sourceTree = "<group>"; };
-		936073DD97CCC73AC1F409D9 /* Pods_MopubAdapterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MopubAdapterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A85DCC42438288D91F56BB4 /* Pods_MopubAdapterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MopubAdapterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAFE2D226A9682000D67011 /* MopubAdapterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MopubAdapterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAFE2D526A9682000D67011 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9BAFE2D626A9682000D67011 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9BAFE2D826A9682000D67011 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		9BAFE2D926A9682000D67011 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		9BAFE2DB26A9682000D67011 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9BAFE2DC26A9682000D67011 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9BAFE2DF26A9682000D67011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,12 +45,6 @@
 		9BAFE2E426A9682300D67011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BAFE2E626A9682300D67011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BAFE2E726A9682300D67011 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9BAFE2F026A9699A00D67011 /* PangleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PangleViewController.h; sourceTree = "<group>"; };
-		9BAFE2F126A9699A00D67011 /* PangleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PangleViewController.m; sourceTree = "<group>"; };
-		9BAFE2F226A9699A00D67011 /* PangleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PangleViewController.xib; sourceTree = "<group>"; };
-		9BAFE2F626A969F800D67011 /* CSJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSJViewController.h; sourceTree = "<group>"; };
-		9BAFE2F726A969F800D67011 /* CSJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSJViewController.m; sourceTree = "<group>"; };
-		9BAFE2F826A969F800D67011 /* CSJViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSJViewController.xib; sourceTree = "<group>"; };
 		9BAFE2FC26A970B800D67011 /* CSJBannerCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSJBannerCustomEvent.m; sourceTree = "<group>"; };
 		9BAFE2FD26A970B800D67011 /* CSJNativeCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSJNativeCustomEvent.h; sourceTree = "<group>"; };
 		9BAFE2FE26A970B800D67011 /* CSJRewardedVideoCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSJRewardedVideoCustomEvent.h; sourceTree = "<group>"; };
@@ -64,6 +59,18 @@
 		9BAFE30726A970B800D67011 /* CSJAdapterConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSJAdapterConfiguration.m; sourceTree = "<group>"; };
 		9BAFE30826A970B800D67011 /* CSJRewardedVideoCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSJRewardedVideoCustomEvent.m; sourceTree = "<group>"; };
 		9BAFE30926A970B800D67011 /* CSJNativeAdRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSJNativeAdRenderer.h; sourceTree = "<group>"; };
+		9BAFE32826A9788E00D67011 /* CSJBannerViewControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSJBannerViewControllerViewController.h; sourceTree = "<group>"; };
+		9BAFE32926A9788E00D67011 /* CSJBannerViewControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSJBannerViewControllerViewController.m; sourceTree = "<group>"; };
+		9BAFE32A26A9788E00D67011 /* CSJBannerViewControllerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSJBannerViewControllerViewController.xib; sourceTree = "<group>"; };
+		9BAFE32D26A99C5100D67011 /* CSJInterstitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSJInterstitialViewController.h; sourceTree = "<group>"; };
+		9BAFE32E26A99C5100D67011 /* CSJInterstitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSJInterstitialViewController.m; sourceTree = "<group>"; };
+		9BAFE32F26A99C5100D67011 /* CSJInterstitialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSJInterstitialViewController.xib; sourceTree = "<group>"; };
+		9BAFE33226A9A77500D67011 /* CSJRewardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSJRewardViewController.h; sourceTree = "<group>"; };
+		9BAFE33326A9A77500D67011 /* CSJRewardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSJRewardViewController.m; sourceTree = "<group>"; };
+		9BAFE33426A9A77500D67011 /* CSJRewardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSJRewardViewController.xib; sourceTree = "<group>"; };
+		9BAFE33726A9A82C00D67011 /* CSJNativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSJNativeViewController.h; sourceTree = "<group>"; };
+		9BAFE33826A9A82C00D67011 /* CSJNativeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSJNativeViewController.m; sourceTree = "<group>"; };
+		9BAFE33926A9A82C00D67011 /* CSJNativeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSJNativeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8541BAA351947D6607AEE6FF /* Pods_MopubAdapterDemo.framework in Frameworks */,
+				92B70FFA58303C3AE6A8F761 /* Pods_MopubAdapterDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +88,7 @@
 		10341D65F3E45BDDDA4288E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				936073DD97CCC73AC1F409D9 /* Pods_MopubAdapterDemo.framework */,
+				6A85DCC42438288D91F56BB4 /* Pods_MopubAdapterDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,7 +116,6 @@
 			children = (
 				9BAFE2FB26A970B800D67011 /* CSJAdapter */,
 				9BAFE2F526A969E300D67011 /* CSJVC */,
-				9BAFE2EF26A9696800D67011 /* PangleVC */,
 				9BAFE2EE26A9695600D67011 /* BaseFile */,
 			);
 			path = MopubAdapterDemo;
@@ -120,8 +126,6 @@
 			children = (
 				9BAFE2D526A9682000D67011 /* AppDelegate.h */,
 				9BAFE2D626A9682000D67011 /* AppDelegate.m */,
-				9BAFE2D826A9682000D67011 /* SceneDelegate.h */,
-				9BAFE2D926A9682000D67011 /* SceneDelegate.m */,
 				9BAFE2DB26A9682000D67011 /* ViewController.h */,
 				9BAFE2DC26A9682000D67011 /* ViewController.m */,
 				9BAFE2DE26A9682000D67011 /* Main.storyboard */,
@@ -133,22 +137,21 @@
 			path = BaseFile;
 			sourceTree = "<group>";
 		};
-		9BAFE2EF26A9696800D67011 /* PangleVC */ = {
-			isa = PBXGroup;
-			children = (
-				9BAFE2F026A9699A00D67011 /* PangleViewController.h */,
-				9BAFE2F126A9699A00D67011 /* PangleViewController.m */,
-				9BAFE2F226A9699A00D67011 /* PangleViewController.xib */,
-			);
-			path = PangleVC;
-			sourceTree = "<group>";
-		};
 		9BAFE2F526A969E300D67011 /* CSJVC */ = {
 			isa = PBXGroup;
 			children = (
-				9BAFE2F626A969F800D67011 /* CSJViewController.h */,
-				9BAFE2F726A969F800D67011 /* CSJViewController.m */,
-				9BAFE2F826A969F800D67011 /* CSJViewController.xib */,
+				9BAFE32826A9788E00D67011 /* CSJBannerViewControllerViewController.h */,
+				9BAFE32926A9788E00D67011 /* CSJBannerViewControllerViewController.m */,
+				9BAFE32A26A9788E00D67011 /* CSJBannerViewControllerViewController.xib */,
+				9BAFE32D26A99C5100D67011 /* CSJInterstitialViewController.h */,
+				9BAFE32E26A99C5100D67011 /* CSJInterstitialViewController.m */,
+				9BAFE32F26A99C5100D67011 /* CSJInterstitialViewController.xib */,
+				9BAFE33226A9A77500D67011 /* CSJRewardViewController.h */,
+				9BAFE33326A9A77500D67011 /* CSJRewardViewController.m */,
+				9BAFE33426A9A77500D67011 /* CSJRewardViewController.xib */,
+				9BAFE33726A9A82C00D67011 /* CSJNativeViewController.h */,
+				9BAFE33826A9A82C00D67011 /* CSJNativeViewController.m */,
+				9BAFE33926A9A82C00D67011 /* CSJNativeViewController.xib */,
 			);
 			path = CSJVC;
 			sourceTree = "<group>";
@@ -242,11 +245,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BAFE33626A9A77500D67011 /* CSJRewardViewController.xib in Resources */,
+				9BAFE33126A99C5100D67011 /* CSJInterstitialViewController.xib in Resources */,
 				9BAFE2E526A9682300D67011 /* LaunchScreen.storyboard in Resources */,
 				9BAFE2E226A9682300D67011 /* Assets.xcassets in Resources */,
+				9BAFE32C26A9788E00D67011 /* CSJBannerViewControllerViewController.xib in Resources */,
+				9BAFE33B26A9A82C00D67011 /* CSJNativeViewController.xib in Resources */,
 				9BAFE2E026A9682000D67011 /* Main.storyboard in Resources */,
-				9BAFE2F426A9699A00D67011 /* PangleViewController.xib in Resources */,
-				9BAFE2FA26A969F800D67011 /* CSJViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,18 +321,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BAFE33026A99C5100D67011 /* CSJInterstitialViewController.m in Sources */,
 				9BAFE2DD26A9682000D67011 /* ViewController.m in Sources */,
-				9BAFE2F926A969F800D67011 /* CSJViewController.m in Sources */,
 				9BAFE2D726A9682000D67011 /* AppDelegate.m in Sources */,
 				9BAFE30F26A970B900D67011 /* CSJAdapterConfiguration.m in Sources */,
 				9BAFE2E826A9682300D67011 /* main.m in Sources */,
 				9BAFE30D26A970B900D67011 /* CSJInterstitialCustomEvent.m in Sources */,
-				9BAFE2F326A9699A00D67011 /* PangleViewController.m in Sources */,
 				9BAFE30B26A970B900D67011 /* CSJNativeAdRenderer.m in Sources */,
-				9BAFE2DA26A9682000D67011 /* SceneDelegate.m in Sources */,
 				9BAFE30A26A970B900D67011 /* CSJBannerCustomEvent.m in Sources */,
+				9BAFE33A26A9A82C00D67011 /* CSJNativeViewController.m in Sources */,
 				9BAFE30C26A970B900D67011 /* CSJNativeCustomEvent.m in Sources */,
 				9BAFE30E26A970B900D67011 /* CSJNativeAdAdapter.m in Sources */,
+				9BAFE33526A9A77500D67011 /* CSJRewardViewController.m in Sources */,
+				9BAFE32B26A9788E00D67011 /* CSJBannerViewControllerViewController.m in Sources */,
 				9BAFE31026A970B900D67011 /* CSJRewardedVideoCustomEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -458,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -470,6 +476,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3601CAEE30C900D4EA3A1CE2 /* Pods-MopubAdapterDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -489,6 +496,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6094F484000C2B7EED2E69A6 /* Pods-MopubAdapterDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,5 +1,5 @@
 //
-//  CSJViewController.h
+//  CSJInterstitialViewController.h
 //  MopubAdapterDemo
 //
 //  Created by Eason on 2021/7/22.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CSJViewController : UIViewController
+@interface CSJInterstitialViewController : UIViewController
 
 @end
 

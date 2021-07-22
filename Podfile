@@ -7,8 +7,8 @@ target 'MopubAdapterDemo' do
 
   # Pods for MopubAdapterDemo
   
-  pod "mopub-ios-sdk/Core","~> 5.17.0"
-  pod "mopub-ios-sdk/NativeAds","~> 5.17.0"
+  pod "mopub-ios-sdk","~> 5.17.0"
+  
   pod "Ads-CN","3.7.0.7"
 
 end

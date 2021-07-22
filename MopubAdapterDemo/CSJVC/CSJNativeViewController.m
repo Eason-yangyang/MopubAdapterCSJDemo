@@ -1,30 +1,30 @@
 //
-//  PangleViewController.m
+//  CSJNativeViewController.m
 //  MopubAdapterDemo
 //
 //  Created by Eason on 2021/7/22.
 //
 
-#import "PangleViewController.h"
+#import "CSJNativeViewController.h"
+#import <MoPubSDK/MoPub.h>
 
-@interface PangleViewController ()
+@interface CSJNativeViewController ()
+@property (weak, nonatomic) IBOutlet UISegmentedControl *styleSeg;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *nativeSeg;
 
 @end
 
-@implementation PangleViewController
+@implementation CSJNativeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
-- (IBAction)bannerAction:(UIButton *)sender {
+
+- (IBAction)loadadAction:(UIButton *)sender {
+    
 }
-- (IBAction)interstitialAction:(UIButton *)sender {
-}
-- (IBAction)rewardAction:(UIButton *)sender {
-}
-- (IBAction)nativeAction:(UIButton *)sender {
-}
+
 
 /*
 #pragma mark - Navigation

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CSJInterstitialViewController">
+            <connections>
+                <outlet property="interstitialSeg" destination="69F-Wi-4zK" id="Me7-eR-hwU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UIK-k6-23e">
+                    <rect key="frame" x="177.5" y="295" width="59" height="30"/>
+                    <state key="normal" title="Load AD"/>
+                    <connections>
+                        <action selector="loadadAction:" destination="-1" eventType="touchUpInside" id="nuq-Fe-cdF"/>
+                    </connections>
+                </button>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="69F-Wi-4zK">
+                    <rect key="frame" x="132.5" y="204" width="149" height="32"/>
+                    <segments>
+                        <segment title="Waterfall"/>
+                        <segment title="Bidding"/>
+                    </segments>
+                </segmentedControl>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="69F-Wi-4zK" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="160" id="0TQ-lY-xvY"/>
+                <constraint firstItem="UIK-k6-23e" firstAttribute="top" secondItem="69F-Wi-4zK" secondAttribute="bottom" constant="60" id="Kqj-fV-7LA"/>
+                <constraint firstItem="UIK-k6-23e" firstAttribute="top" secondItem="69F-Wi-4zK" secondAttribute="bottom" constant="60" id="MS2-39-5Tq"/>
+                <constraint firstItem="UIK-k6-23e" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gNp-jG-R6N"/>
+                <constraint firstItem="69F-Wi-4zK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="khA-Hp-O9Q"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="85.714285714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

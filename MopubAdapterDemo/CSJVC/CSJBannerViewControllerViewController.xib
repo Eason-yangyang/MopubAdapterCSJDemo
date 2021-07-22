@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CSJBannerViewControllerViewController">
+            <connections>
+                <outlet property="bannerSeg" destination="l7d-2l-QvS" id="t1P-iK-Rzp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="l7d-2l-QvS">
+                    <rect key="frame" x="0.0" y="144" width="414" height="32"/>
+                    <segments>
+                        <segment title="320x50"/>
+                        <segment title="300x250"/>
+                        <segment title="B320x50"/>
+                        <segment title="B300x250"/>
+                    </segments>
+                </segmentedControl>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNU-h8-xMK">
+                    <rect key="frame" x="177.5" y="235" width="59" height="30"/>
+                    <state key="normal" title="Load AD"/>
+                    <connections>
+                        <action selector="loadAdAction:" destination="-1" eventType="touchUpInside" id="t3f-uH-mA1"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="l7d-2l-QvS" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="Bad-Ja-O3V"/>
+                <constraint firstItem="l7d-2l-QvS" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="100" id="FBH-OH-Abc"/>
+                <constraint firstItem="gNU-h8-xMK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="FWs-uC-vR8"/>
+                <constraint firstItem="l7d-2l-QvS" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="OlN-RY-A80"/>
+                <constraint firstItem="gNU-h8-xMK" firstAttribute="top" secondItem="l7d-2l-QvS" secondAttribute="bottom" constant="60" id="QoY-7F-j4O"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="148.66071428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

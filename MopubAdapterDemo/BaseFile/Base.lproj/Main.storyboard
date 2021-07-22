@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LLe-xk-yA3">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -32,20 +33,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIe-Zk-nA8">
-                                <rect key="frame" x="183.5" y="320" width="47" height="30"/>
-                                <state key="normal" title="Pangle"/>
-                                <connections>
-                                    <action selector="PangleAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YjV-Uf-WlM"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKw-Vr-l4L">
-                                <rect key="frame" x="192" y="433" width="30" height="30"/>
-                                <state key="normal" title="CSJ"/>
-                                <connections>
-                                    <action selector="CSJAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hrF-Ic-UhW"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SDK:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbE-DM-SCC">
                                 <rect key="frame" x="99" y="493" width="38" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -64,32 +51,48 @@
                                 <color key="textColor" systemColor="opaqueSeparatorColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6W-WZ-YDa">
-                                <rect key="frame" x="230" y="551" width="24" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mopub:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7t-xZ-BhD">
                                 <rect key="frame" x="99" y="522" width="59" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" systemColor="opaqueSeparatorColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PangleAdapter:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kji-9U-T6X">
-                                <rect key="frame" x="99" y="551" width="117" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppH-eb-xeS">
+                                <rect key="frame" x="146" y="248" width="122" height="30"/>
+                                <state key="normal" title="CSJ_banner_Item"/>
+                                <connections>
+                                    <action selector="bannerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hgb-eZ-98z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rb5-S4-EcJ">
+                                <rect key="frame" x="136" y="298" width="142" height="30"/>
+                                <state key="normal" title="CSJ_interstitial_Item"/>
+                                <connections>
+                                    <action selector="interstitialAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9kT-jo-gQY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhR-rL-QjH">
+                                <rect key="frame" x="146" y="348" width="122" height="30"/>
+                                <state key="normal" title="CSJ_reward_Item"/>
+                                <connections>
+                                    <action selector="rewardAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YHS-WO-VJU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6I-tX-3jv">
+                                <rect key="frame" x="149.5" y="398" width="115" height="30"/>
+                                <state key="normal" title="CSJ_native_Item"/>
+                                <connections>
+                                    <action selector="nativeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xaV-ob-ami"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CSJAdapter:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sLL-SG-ueW">
-                                <rect key="frame" x="99" y="580" width="96" height="21"/>
+                                <rect key="frame" x="99" y="551" width="96" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" systemColor="opaqueSeparatorColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qMd-QE-Ukk">
-                                <rect key="frame" x="230" y="580" width="24" height="21"/>
+                                <rect key="frame" x="230" y="551" width="24" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" systemColor="opaqueSeparatorColor"/>
                                 <nil key="highlightedColor"/>
@@ -101,29 +104,27 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="sLL-SG-ueW" secondAttribute="trailing" symbolic="YES" id="1cq-mv-e2Q"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="h7t-xZ-BhD" secondAttribute="trailing" symbolic="YES" id="1pt-dQ-Cdi"/>
                             <constraint firstItem="pcp-HL-my6" firstAttribute="centerY" secondItem="lbE-DM-SCC" secondAttribute="centerY" id="1rL-Ic-hgV"/>
-                            <constraint firstItem="T6W-WZ-YDa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="230" id="2oa-Yh-le3"/>
-                            <constraint firstItem="zKw-Vr-l4L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4aC-F3-SK7"/>
-                            <constraint firstItem="cIe-Zk-nA8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8xp-XK-A3i"/>
-                            <constraint firstItem="sLL-SG-ueW" firstAttribute="top" secondItem="Kji-9U-T6X" secondAttribute="bottom" constant="8" symbolic="YES" id="Aqe-wQ-PTe"/>
+                            <constraint firstItem="ppH-eb-xeS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BFd-Yk-mWY"/>
                             <constraint firstItem="SOO-vs-NFe" firstAttribute="centerY" secondItem="h7t-xZ-BhD" secondAttribute="centerY" id="C83-pr-w6f"/>
-                            <constraint firstItem="Kji-9U-T6X" firstAttribute="leading" secondItem="h7t-xZ-BhD" secondAttribute="leading" id="CoH-jT-bGR"/>
                             <constraint firstItem="h7t-xZ-BhD" firstAttribute="top" secondItem="lbE-DM-SCC" secondAttribute="bottom" constant="8" symbolic="YES" id="DTb-ZZ-ENd"/>
                             <constraint firstItem="lbE-DM-SCC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-89" id="DcM-Cc-GEP"/>
+                            <constraint firstItem="sLL-SG-ueW" firstAttribute="leading" secondItem="h7t-xZ-BhD" secondAttribute="leading" id="EzT-CW-xpj"/>
+                            <constraint firstItem="rb5-S4-EcJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GW7-rb-kDW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="pcp-HL-my6" secondAttribute="trailing" symbolic="YES" id="IKQ-RI-eZR"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="T6W-WZ-YDa" secondAttribute="trailing" symbolic="YES" id="Mjx-0S-2Nd"/>
                             <constraint firstItem="lbE-DM-SCC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="55.5" id="Nwy-vi-4I5"/>
-                            <constraint firstItem="sLL-SG-ueW" firstAttribute="leading" secondItem="Kji-9U-T6X" secondAttribute="leading" id="QJC-5J-GU2"/>
+                            <constraint firstItem="rb5-S4-EcJ" firstAttribute="top" secondItem="ppH-eb-xeS" secondAttribute="bottom" constant="20" id="QSt-5t-j3B"/>
+                            <constraint firstItem="mhR-rL-QjH" firstAttribute="top" secondItem="rb5-S4-EcJ" secondAttribute="bottom" constant="20" id="TTz-vh-bLx"/>
+                            <constraint firstItem="h6I-tX-3jv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UN1-RC-YFT"/>
+                            <constraint firstItem="ppH-eb-xeS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="160" id="UYK-Px-myT"/>
                             <constraint firstItem="qMd-QE-Ukk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="230" id="VFC-et-OpF"/>
                             <constraint firstItem="pcp-HL-my6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="230" id="Y1D-T5-umS"/>
-                            <constraint firstItem="cIe-Zk-nA8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-113" id="Zba-Zi-p1S"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Kji-9U-T6X" secondAttribute="trailing" symbolic="YES" id="aee-1E-0Mm"/>
+                            <constraint firstItem="sLL-SG-ueW" firstAttribute="top" secondItem="h7t-xZ-BhD" secondAttribute="bottom" constant="8" symbolic="YES" id="dIA-Pg-7tf"/>
                             <constraint firstItem="h7t-xZ-BhD" firstAttribute="leading" secondItem="lbE-DM-SCC" secondAttribute="leading" id="diX-PO-fUR"/>
-                            <constraint firstItem="zKw-Vr-l4L" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ff9-ys-nJ8"/>
-                            <constraint firstItem="T6W-WZ-YDa" firstAttribute="centerY" secondItem="Kji-9U-T6X" secondAttribute="centerY" id="foW-CF-zCV"/>
                             <constraint firstItem="SOO-vs-NFe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="230" id="go4-6C-osi"/>
                             <constraint firstItem="qMd-QE-Ukk" firstAttribute="centerY" secondItem="sLL-SG-ueW" secondAttribute="centerY" id="hs1-02-Q6s"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="SOO-vs-NFe" secondAttribute="trailing" symbolic="YES" id="mEl-cr-XW4"/>
-                            <constraint firstItem="Kji-9U-T6X" firstAttribute="top" secondItem="h7t-xZ-BhD" secondAttribute="bottom" constant="8" symbolic="YES" id="s99-Iv-MQo"/>
+                            <constraint firstItem="mhR-rL-QjH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qBN-PR-Lxv"/>
+                            <constraint firstItem="h6I-tX-3jv" firstAttribute="top" secondItem="mhR-rL-QjH" secondAttribute="bottom" constant="20" id="qQC-LA-er1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="qMd-QE-Ukk" secondAttribute="trailing" symbolic="YES" id="xSv-qh-oqW"/>
                         </constraints>
                     </view>
@@ -131,7 +132,6 @@
                     <connections>
                         <outlet property="csjadapter" destination="qMd-QE-Ukk" id="tup-25-u0n"/>
                         <outlet property="mopub" destination="SOO-vs-NFe" id="mzY-fW-1eO"/>
-                        <outlet property="pangleadapter" destination="T6W-WZ-YDa" id="Ijd-mI-jrw"/>
                         <outlet property="sdk" destination="pcp-HL-my6" id="HH2-tx-eDI"/>
                     </connections>
                 </viewController>
