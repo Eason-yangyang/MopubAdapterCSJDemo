@@ -26,10 +26,10 @@
 - (IBAction)loadadAction:(UIButton *)sender {
     switch (self.interstitialSeg.selectedSegmentIndex) {
         case 0:
-            [self loadInterstitialWithSlotId:@"123"];
+            [self loadInterstitialWithSlotId:@"9043f091896947e3a6e8611cf90a7502"];
             break;
         case 1:
-            [self loadInterstitialWithSlotId:@"123"];
+            [self loadInterstitialWithSlotId:@"4d828ebcb6594999ace41c95f296b4ae"];
             break;
         default:
             break;

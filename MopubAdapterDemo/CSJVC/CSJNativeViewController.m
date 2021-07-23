@@ -32,10 +32,10 @@
     BOOL video = self.styleSeg.selectedSegmentIndex == 1;
     switch (self.nativeSeg.selectedSegmentIndex) {
         case 0:
-            [self setAdReqWithSlotId:@"123" video:video];
+            [self setAdReqWithSlotId:@"ea52dd09dbda4657903069e62e5f8c95" video:video];
             break;
         case 1:
-            [self setAdReqWithSlotId:@"123" video:video];
+            [self setAdReqWithSlotId:@"efb1334ac62e49f39e5d1fe8bdb6129d" video:video];
             break;
         default:
             break;
@@ -82,7 +82,8 @@
 
     // targeting
     MPNativeAdRequestTargeting *targeting = [MPNativeAdRequestTargeting targeting];
-    targeting.desiredAssets =  targeting.desiredAssets = [NSSet setWithObjects:kAdTitleKey, kAdTextKey, kAdCTATextKey, kAdIconImageKey, kAdMainImageKey, kAdStarRatingKey, video?kVASTVideoKey:nil, nil];
+    
+    targeting.desiredAssets = [NSSet setWithObjects:kAdTitleKey, kAdTextKey, kAdCTATextKey, kAdIconImageKey, kAdMainImageKey, kAdStarRatingKey, video?kVASTVideoKey:nil, nil];
     
     // init adReq
     _adReq = [MPNativeAdRequest requestWithAdUnitIdentifier:slotId rendererConfigurations:@[config]];

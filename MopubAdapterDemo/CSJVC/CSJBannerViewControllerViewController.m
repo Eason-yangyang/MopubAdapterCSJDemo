@@ -37,16 +37,16 @@
 - (IBAction)loadAdAction:(UIButton *)sender {
     switch (self.bannerSeg.selectedSegmentIndex) {
         case 0:
-            [self loadBannerViewSlotId:@"123" size:CGSizeMake(320, 50)];
+            [self loadBannerViewSlotId:@"5bf96fc264934e838ac8fe8150c01b8f" size:CGSizeMake(320, 50)];
             break;
         case 1:
-            [self loadBannerViewSlotId:@"123" size:CGSizeMake(300, 250)];
+            [self loadBannerViewSlotId:@"314b6ed129e24c17b1d4b428c59f2462" size:CGSizeMake(300, 250)];
             break;
         case 2:
-            [self loadBannerViewSlotId:@"123" size:CGSizeMake(320, 50)];
+            [self loadBannerViewSlotId:@"ea985ac82edf44e2bb77204fb482c1f2" size:CGSizeMake(320, 50)];
             break;
         case 3:
-            [self loadBannerViewSlotId:@"123" size:CGSizeMake(300, 250)];
+            [self loadBannerViewSlotId:@"db2b712ab2b2411093811af81de4e6e8" size:CGSizeMake(300, 250)];
             break;
         default:
             break;

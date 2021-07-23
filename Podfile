@@ -10,5 +10,7 @@ target 'MopubAdapterDemo' do
   pod "mopub-ios-sdk","~> 5.17.0"
   
   pod "Ads-CN","3.7.0.7"
+  
+#  pod "CSJ-mopub-adapter"
 
 end

@@ -24,7 +24,7 @@
 - (void)configCustomEvent {
 
     // mopub adaptor config
-    MPMoPubConfiguration *sdkConfig = [[MPMoPubConfiguration alloc] initWithAdUnitIdForAppInitialization:@""];
+    MPMoPubConfiguration *sdkConfig = [[MPMoPubConfiguration alloc] initWithAdUnitIdForAppInitialization:@"5bf96fc264934e838ac8fe8150c01b8f"];
     
     NSMutableDictionary *networkConfig = [NSMutableDictionary dictionaryWithCapacity:2];
     

@@ -23,10 +23,10 @@
 - (IBAction)loadadAction:(UIButton *)sender {
     switch (self.rewardSeg.selectedSegmentIndex) {
         case 0:
-            [self setUpRewardVideoWithSlotId:@"123"];
+            [self setUpRewardVideoWithSlotId:@"597094cbba3348c1ac81e839e7a9c7f1"];
             break;
         case 1:
-            [self setUpRewardVideoWithSlotId:@"123"];
+            [self setUpRewardVideoWithSlotId:@"25936d1875b7416ea0f9b15857afcac6"];
             break;
         default:
             break;
