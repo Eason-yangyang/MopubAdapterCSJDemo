@@ -23,7 +23,6 @@
 
 - (void)configCustomEvent {
 
-    
     // mopub adaptor config
     MPMoPubConfiguration *sdkConfig = [[MPMoPubConfiguration alloc] initWithAdUnitIdForAppInitialization:@""];
     

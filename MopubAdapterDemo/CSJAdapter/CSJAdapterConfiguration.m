@@ -73,7 +73,7 @@ typedef NS_ENUM(NSInteger, CSJAdapterErrorCode) {
             BOOL canCollectPersonalInfo =  [[MoPub sharedInstance] canCollectPersonalInfo];
             [BUAdSDKManager setGDPR:canCollectPersonalInfo ? 0 : 1];
             
-            [BUAdSDKManager setUserExtData:@"[{\"name\":\"mediation\",\"value\":\"mopub\"},{\"name\":\"adapter_version\",\"value\":\"1.2.0\"}]"];
+            [BUAdSDKManager setUserExtData:@"[{\"name\":\"mediation\",\"value\":\"mopub_cn\"},{\"name\":\"adapter_version\",\"value\":\"1.0.0\"}]"];
 
             [BUAdSDKManager setAppID:appId];
             
