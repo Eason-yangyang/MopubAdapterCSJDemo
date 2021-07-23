@@ -29,6 +29,7 @@
 		9BAFE33626A9A77500D67011 /* CSJRewardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BAFE33426A9A77500D67011 /* CSJRewardViewController.xib */; };
 		9BAFE33A26A9A82C00D67011 /* CSJNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE33826A9A82C00D67011 /* CSJNativeViewController.m */; };
 		9BAFE33B26A9A82C00D67011 /* CSJNativeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BAFE33926A9A82C00D67011 /* CSJNativeViewController.xib */; };
+		9BAFE33E26AA72EE00D67011 /* CSJNativeAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE33C26AA72EE00D67011 /* CSJNativeAdView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,8 @@
 		9BAFE33726A9A82C00D67011 /* CSJNativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSJNativeViewController.h; sourceTree = "<group>"; };
 		9BAFE33826A9A82C00D67011 /* CSJNativeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSJNativeViewController.m; sourceTree = "<group>"; };
 		9BAFE33926A9A82C00D67011 /* CSJNativeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSJNativeViewController.xib; sourceTree = "<group>"; };
+		9BAFE33C26AA72EE00D67011 /* CSJNativeAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSJNativeAdView.m; sourceTree = "<group>"; };
+		9BAFE33D26AA72EE00D67011 /* CSJNativeAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSJNativeAdView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +155,8 @@
 				9BAFE33726A9A82C00D67011 /* CSJNativeViewController.h */,
 				9BAFE33826A9A82C00D67011 /* CSJNativeViewController.m */,
 				9BAFE33926A9A82C00D67011 /* CSJNativeViewController.xib */,
+				9BAFE33D26AA72EE00D67011 /* CSJNativeAdView.h */,
+				9BAFE33C26AA72EE00D67011 /* CSJNativeAdView.m */,
 			);
 			path = CSJVC;
 			sourceTree = "<group>";
@@ -324,6 +329,7 @@
 				9BAFE33026A99C5100D67011 /* CSJInterstitialViewController.m in Sources */,
 				9BAFE2DD26A9682000D67011 /* ViewController.m in Sources */,
 				9BAFE2D726A9682000D67011 /* AppDelegate.m in Sources */,
+				9BAFE33E26AA72EE00D67011 /* CSJNativeAdView.m in Sources */,
 				9BAFE30F26A970B900D67011 /* CSJAdapterConfiguration.m in Sources */,
 				9BAFE2E826A9682300D67011 /* main.m in Sources */,
 				9BAFE30D26A970B900D67011 /* CSJInterstitialCustomEvent.m in Sources */,
