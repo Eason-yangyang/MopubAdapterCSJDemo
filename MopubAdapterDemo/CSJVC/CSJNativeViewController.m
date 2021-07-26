@@ -32,7 +32,7 @@
     BOOL video = self.styleSeg.selectedSegmentIndex == 1;
     switch (self.nativeSeg.selectedSegmentIndex) {
         case 0:
-            [self setAdReqWithSlotId:@"ea52dd09dbda4657903069e62e5f8c95" video:video];
+            [self setAdReqWithSlotId:@"5a053876f41648309014419fd2f6bc8e" video:video];
             break;
         case 1:
             [self setAdReqWithSlotId:@"efb1334ac62e49f39e5d1fe8bdb6129d" video:video];
