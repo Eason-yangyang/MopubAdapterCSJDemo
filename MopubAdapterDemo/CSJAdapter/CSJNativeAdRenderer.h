@@ -1,7 +1,10 @@
 #if __has_include(<MoPub/MoPub.h>)
     #import <MoPub/MoPub.h>
-#else
+#elif __has_include(<MoPubSDK/MoPub.h>)
     #import <MoPubSDK/MoPub.h>
+#else
+    #import "MPNativeAdRenderer.h"
+    #import "MPNativeAdRendererSettings.h"
 #endif
 
 @class MPNativeAdRendererConfiguration;
