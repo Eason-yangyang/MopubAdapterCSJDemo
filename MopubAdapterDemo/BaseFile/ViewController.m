@@ -7,7 +7,13 @@
 
 #import "ViewController.h"
 #import <BUAdSDK/BUAdSDK.h>
-#import <MoPubSDK/MoPub.h>
+#if __has_include(<MoPub/MoPub.h>)
+    #import <MoPub/MoPub.h>
+#elif __has_include(<MoPubSDK/MoPub.h>)
+    #import <MoPubSDK/MoPub.h>
+#else
+    #import "MoPub.h"
+#endif
 #import "CSJAdapterConfiguration.h"
 
 #import "CSJBannerViewControllerViewController.h"
