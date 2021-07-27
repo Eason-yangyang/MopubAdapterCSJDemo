@@ -8,13 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		38FC8A73A1A6C1F6B65152EA /* Pods_MopubAdapterDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C994ECE5EDEDA91CF061990F /* Pods_MopubAdapterDemo.framework */; };
-		9BA314DE26AFB5D80072149A /* CSJNativeAdAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA314CE26AFB5D80072149A /* CSJNativeAdAdapter.m */; };
-		9BA314DF26AFB5D80072149A /* CSJInterstitialCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA314CF26AFB5D80072149A /* CSJInterstitialCustomEvent.m */; };
-		9BA314E026AFB5D80072149A /* CSJAdapterConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA314D026AFB5D80072149A /* CSJAdapterConfiguration.m */; };
-		9BA314E226AFB5D80072149A /* CSJBannerCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA314D326AFB5D80072149A /* CSJBannerCustomEvent.m */; };
-		9BA314E326AFB5D80072149A /* CSJNativeAdRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA314D526AFB5D80072149A /* CSJNativeAdRenderer.m */; };
-		9BA314E526AFB5D80072149A /* CSJRewardedVideoCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA314DA26AFB5D80072149A /* CSJRewardedVideoCustomEvent.m */; };
-		9BA314E626AFB5D80072149A /* CSJNativeCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA314DD26AFB5D80072149A /* CSJNativeCustomEvent.m */; };
 		9BAFE2D726A9682000D67011 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE2D626A9682000D67011 /* AppDelegate.m */; };
 		9BAFE2DD26A9682000D67011 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFE2DC26A9682000D67011 /* ViewController.m */; };
 		9BAFE2E026A9682000D67011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BAFE2DE26A9682000D67011 /* Main.storyboard */; };
@@ -35,20 +28,6 @@
 /* Begin PBXFileReference section */
 		3601CAEE30C900D4EA3A1CE2 /* Pods-MopubAdapterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MopubAdapterDemo.debug.xcconfig"; path = "Target Support Files/Pods-MopubAdapterDemo/Pods-MopubAdapterDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6094F484000C2B7EED2E69A6 /* Pods-MopubAdapterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MopubAdapterDemo.release.xcconfig"; path = "Target Support Files/Pods-MopubAdapterDemo/Pods-MopubAdapterDemo.release.xcconfig"; sourceTree = "<group>"; };
-		9BA314CE26AFB5D80072149A /* CSJNativeAdAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSJNativeAdAdapter.m; sourceTree = "<group>"; };
-		9BA314CF26AFB5D80072149A /* CSJInterstitialCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSJInterstitialCustomEvent.m; sourceTree = "<group>"; };
-		9BA314D026AFB5D80072149A /* CSJAdapterConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSJAdapterConfiguration.m; sourceTree = "<group>"; };
-		9BA314D226AFB5D80072149A /* CSJRewardedVideoCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSJRewardedVideoCustomEvent.h; sourceTree = "<group>"; };
-		9BA314D326AFB5D80072149A /* CSJBannerCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSJBannerCustomEvent.m; sourceTree = "<group>"; };
-		9BA314D426AFB5D80072149A /* CSJNativeCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSJNativeCustomEvent.h; sourceTree = "<group>"; };
-		9BA314D526AFB5D80072149A /* CSJNativeAdRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSJNativeAdRenderer.m; sourceTree = "<group>"; };
-		9BA314D626AFB5D80072149A /* CSJAdapterConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSJAdapterConfiguration.h; sourceTree = "<group>"; };
-		9BA314D826AFB5D80072149A /* CSJInterstitialCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSJInterstitialCustomEvent.h; sourceTree = "<group>"; };
-		9BA314D926AFB5D80072149A /* CSJNativeAdAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSJNativeAdAdapter.h; sourceTree = "<group>"; };
-		9BA314DA26AFB5D80072149A /* CSJRewardedVideoCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSJRewardedVideoCustomEvent.m; sourceTree = "<group>"; };
-		9BA314DB26AFB5D80072149A /* CSJBannerCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSJBannerCustomEvent.h; sourceTree = "<group>"; };
-		9BA314DC26AFB5D80072149A /* CSJNativeAdRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSJNativeAdRenderer.h; sourceTree = "<group>"; };
-		9BA314DD26AFB5D80072149A /* CSJNativeCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSJNativeCustomEvent.m; sourceTree = "<group>"; };
 		9BAFE2D226A9682000D67011 /* MopubAdapterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MopubAdapterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAFE2D526A9682000D67011 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9BAFE2D626A9682000D67011 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,27 +75,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9BA314CD26AFB5D80072149A /* CSJAdapter */ = {
-			isa = PBXGroup;
-			children = (
-				9BA314D626AFB5D80072149A /* CSJAdapterConfiguration.h */,
-				9BA314D026AFB5D80072149A /* CSJAdapterConfiguration.m */,
-				9BA314DB26AFB5D80072149A /* CSJBannerCustomEvent.h */,
-				9BA314D326AFB5D80072149A /* CSJBannerCustomEvent.m */,
-				9BA314D826AFB5D80072149A /* CSJInterstitialCustomEvent.h */,
-				9BA314CF26AFB5D80072149A /* CSJInterstitialCustomEvent.m */,
-				9BA314D926AFB5D80072149A /* CSJNativeAdAdapter.h */,
-				9BA314CE26AFB5D80072149A /* CSJNativeAdAdapter.m */,
-				9BA314DC26AFB5D80072149A /* CSJNativeAdRenderer.h */,
-				9BA314D526AFB5D80072149A /* CSJNativeAdRenderer.m */,
-				9BA314D426AFB5D80072149A /* CSJNativeCustomEvent.h */,
-				9BA314DD26AFB5D80072149A /* CSJNativeCustomEvent.m */,
-				9BA314D226AFB5D80072149A /* CSJRewardedVideoCustomEvent.h */,
-				9BA314DA26AFB5D80072149A /* CSJRewardedVideoCustomEvent.m */,
-			);
-			path = CSJAdapter;
-			sourceTree = "<group>";
-		};
 		9BAFE2C926A9682000D67011 = {
 			isa = PBXGroup;
 			children = (
@@ -138,7 +96,6 @@
 		9BAFE2D426A9682000D67011 /* MopubAdapterDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9BA314CD26AFB5D80072149A /* CSJAdapter */,
 				9BAFE2F526A969E300D67011 /* CSJVC */,
 				9BAFE2EE26A9695600D67011 /* BaseFile */,
 			);
@@ -328,17 +285,10 @@
 			files = (
 				9BAFE33026A99C5100D67011 /* CSJInterstitialViewController.m in Sources */,
 				9BAFE2DD26A9682000D67011 /* ViewController.m in Sources */,
-				9BA314DF26AFB5D80072149A /* CSJInterstitialCustomEvent.m in Sources */,
-				9BA314E326AFB5D80072149A /* CSJNativeAdRenderer.m in Sources */,
 				9BAFE2D726A9682000D67011 /* AppDelegate.m in Sources */,
-				9BA314E026AFB5D80072149A /* CSJAdapterConfiguration.m in Sources */,
-				9BA314E526AFB5D80072149A /* CSJRewardedVideoCustomEvent.m in Sources */,
 				9BAFE33E26AA72EE00D67011 /* CSJNativeAdView.m in Sources */,
 				9BAFE2E826A9682300D67011 /* main.m in Sources */,
-				9BA314E626AFB5D80072149A /* CSJNativeCustomEvent.m in Sources */,
 				9BAFE33A26A9A82C00D67011 /* CSJNativeViewController.m in Sources */,
-				9BA314E226AFB5D80072149A /* CSJBannerCustomEvent.m in Sources */,
-				9BA314DE26AFB5D80072149A /* CSJNativeAdAdapter.m in Sources */,
 				9BAFE33526A9A77500D67011 /* CSJRewardViewController.m in Sources */,
 				9BAFE32B26A9788E00D67011 /* CSJBannerViewControllerViewController.m in Sources */,
 			);

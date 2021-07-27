@@ -1,29 +1,36 @@
 PODS:
-  - Ads-CN (3.7.0.7):
-    - Ads-CN/BUAdSDK (= 3.7.0.7)
-  - Ads-CN/BUAdSDK (3.7.0.7):
+  - Ads-CN (3.7.0.8):
+    - Ads-CN/BUAdSDK (= 3.7.0.8)
+  - Ads-CN/BUAdSDK (3.7.0.8):
     - Ads-CN/BUFoundation
     - Ads-CN/Domestic
-  - Ads-CN/BUFoundation (3.7.0.7)
-  - Ads-CN/Domestic (3.7.0.7)
+  - Ads-CN/BUFoundation (3.7.0.8)
+  - Ads-CN/Domestic (3.7.0.8)
+  - CSJ-mopub-adapter (1.0.0):
+    - Ads-CN (= 3.7.0.8)
+    - mopub-ios-sdk/Core (~> 5.17.0)
+    - mopub-ios-sdk/NativeAds (~> 5.17.0)
   - mopub-ios-sdk/Core (5.17.0)
   - mopub-ios-sdk/NativeAds (5.17.0):
     - mopub-ios-sdk/Core
 
 DEPENDENCIES:
-  - Ads-CN (= 3.7.0.7)
+  - Ads-CN (= 3.7.0.8)
+  - CSJ-mopub-adapter
   - mopub-ios-sdk/Core (~> 5.17.0)
   - mopub-ios-sdk/NativeAds (~> 5.17.0)
 
 SPEC REPOS:
   trunk:
     - Ads-CN
+    - CSJ-mopub-adapter
     - mopub-ios-sdk
 
 SPEC CHECKSUMS:
-  Ads-CN: 0fa668fd0995310421a97799780cc09e0ce8948a
+  Ads-CN: 4937e2fb03d0e77035ede98ffc936d49ad865b6d
+  CSJ-mopub-adapter: 8a85e8482b634a8276c83ababd1314fa6c744ffd
   mopub-ios-sdk: 36d322902674b79b0560a1cb8d15af0548d364ea
 
-PODFILE CHECKSUM: 785325b15c53f822a340a219edb2ec7166cfb9b7
+PODFILE CHECKSUM: 910adac4b219c8215cf8f6db00c33fb19b462b8b
 
 COCOAPODS: 1.10.1

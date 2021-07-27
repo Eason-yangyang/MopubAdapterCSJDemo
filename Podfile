@@ -12,9 +12,9 @@ target 'MopubAdapterDemo' do
  
  pod "mopub-ios-sdk/NativeAds","~> 5.17.0"
 
-  pod "Ads-CN","3.7.0.7"
+  pod "Ads-CN","3.7.0.8"
   
-#  pod "CSJ-mopub-adapter"
+  pod "CSJ-mopub-adapter"
 
 #pod "MoPub-Pangle-Adapters"
   
