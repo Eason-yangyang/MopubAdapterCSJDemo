@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
 
   s.source_files        = "CSJAdapter/*.{h,m}"
 
-  s.dependency "Ads-CN","3.7.0.8"
+  s.dependency "Ads-CN",">= 3.7.0.0"
 
-  s.dependency "mopub-ios-sdk/Core","~> 5.17.0"
+  s.dependency "mopub-ios-sdk/Core",">= 5.17.0"
 
-  s.dependency "mopub-ios-sdk/NativeAds","~> 5.17.0"
+  s.dependency "mopub-ios-sdk/NativeAds",">= 5.17.0"
 
   
 
